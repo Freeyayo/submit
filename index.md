@@ -1,37 +1,258 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Freeyayo/submit/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Freeyayo/submit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GO TO THAILAND</title>
+	<style>
+header,article,nav{
+	display: block;
+}
+section{
+	display: none;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 10%;
+	max-width: 80em;
+}
+header{
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+}
+#logo{
+	height: 250px;
+	width: 500px;
+	line-height: 250px;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+header nav{
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 12%;
+}
+header nav li{
+	display:inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 4em;
+	border-right: .1em solid;
+	border-left: .1em solid;
+}
+article{
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 8em 10%;
+	line-height: 1.8em;
+}
+article p{
+	line-height: 1.4em;
+}
+article img{
+	border-width: .1em;
+	border-style: solid;
+	outline-width: .1em;
+	outline-style: solid;
+}
+article nav ul li a{
+	font-size: 16px;
+}
+article nav ul{
+	margin-top: 10px;
+}
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin-left: 100px;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#imagegallery li{
+	display: inline;
+}
+#imagegallery li a img{
+	width: 130px;
+	height: 130px;
+	margin: 5px;
+}
+#placeholder{
+	box-shadow: 0 0 20px;
+	border-radius: 20px;
+	outline-style: none;
+	width: 450px;
+	height: 450px;
+	margin-top: -30px;
+}
+td{
+	padding: .7em 3.5em;
+}
+th{
+	padding: .5em;
+}
+label{
+	display: block;
+}
+fieldset{
+	border:0;
+}
+#sipt{
+	width: 55px;
+	height: 25px;
+}
+		body{
+	font-size: 76%;
+}
+body *{
+	font-size: 1em;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav{
+	text-decoration: none;
+	font-weight: bold;
+}
+article{
+	line-height: 1.8em;
+}
+article p{
+	margin: 3em 0;
+	font-size: 1.5em;
+}
+h1{
+	font:2.4em normal;
+}
+h2{
+	font:1.8em normal;
+	margin-top: 1em;
+	font-weight: bold;
+}
+h3{
+	font:1.4em normal;
+	margin-top: 1em;
+}
+#imagegallery li{
+	list-style-type: none;
+}
+table{
+	font-size: 17px;
+}
+		body{
+	color: #fb5;
+	background-color: #334;
+}
+a:link{
+	color: #445;
+}
+a:visited{
+	color: #345;
+	background-color: #eb6;
+}
+a:hover{
+	color: #667;
+}
+a:active{
+	color: #778;
+	background-color: #ec8;
+}
+header{
+	color: #ec8;
+	background-color: #334;
+	border-color: #667;
+}
+header nav {
+	color: #445;
+	border-color: #667;
+}
+article{
+	color: #223;
+	background-color: #edc;
+	border-color: #667;
+}
+header nav ul {
+	border-color: #99a;
+}
+header nav a:link,header nav a:visited{
+	color: #334;
+	background-color: transparent;
+	border-color: #99a;
+}
+header nav a:hover{
+	color: #445;
+	background-color: #eb6;
+}
+header nav a:active{
+	color: #667;
+	background-color: #ec8;
+}
+article img{
+	border-color: #eb9;
+	outline-color: #dcb;
+}
+#imagegallery a{
+	background-color: transparent;
+}
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+    color: #eef;
+    background-color: #799;
+}
+th{
+	color: #edc;
+	background-color: #455;
+}
+tr td{
+	color: #223;
+	background-color: #eb6;
+}
+tr.odd td{
+	color: #233;
+	background-color: #ec8;
+}
+tr.highlight td{
+	color: #233;
+	background-color: #cba;
+}
+	</style>
+</head>
+<body>
+	<header>
+	<div id="logo">泰国旅游咨询</div>
+	  <nav>
+		  <ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="about.html">About</a></li>
+			  <li><a href="photos.html">Photos</a></li>
+			  <li><a href="schedule.html">Schedule</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+		  </ul>
+	  </nav>
+	</header>
+	<article>
+	<h1>感谢！</h1>
+	<br>
+      <p>收到您的留言，我们将尽快处理，给予回复。</p>
+	</article>
+	<script src="scripts/global6.js"></script>
+</body>
+</html>
